@@ -1,164 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>html Check point</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body id="top-page">
-  <nav >
-    <a href="#home">home</a>
-    <a href="#about">about</a>
-    <a href="#work">work</a>
-    <a href="#resume">resume</a>
-    <a href="#contact">contact</a>
-  </nav>
-      <hr class="blue-hr">
-  <main >
-    <section>
-      <fieldset>
-        <legend><h1>welcome to my portfolio</h1></legend>
-      <figure>
-        <img  src="img/IMG_20220819_121915.jpg" alt="profile-img" width="100%" height="400px">
-        <figcaption>me at 20 &#128513;</figcaption>
-      </figure>
-    </section>
-    <section id="about">
-      <fieldset>
-        <legend><h1>about</h1></legend>
-      <p>Hi there, I am Daddinounou Zakaria, I am 22 years old, and I am a student at USTHB University.
-        I am passionate about web development and I am currently learning front-end development.
-      </p>
-    </section>
-    </fieldset >
-    <section id="work">
-      <fieldset>
-        <legend><h1>Work</h1></legend>
-      <p>
-        I have worked on several projects, including a personal portfolio website, a blog platform, and a task management app.
-        I am always looking for new opportunities to learn and grow as a developer. 
-        <br> you cant see one of my project below:
-      </p>
-      <div class="video-container">
-          <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/IHf3JWkxUXA?si=L9SFQIaOcYEYjfia"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
-</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html Check point</title>
+  </head>
+  <!-- the visible content  -->
+  <body id="top-page">
+    <!-- navigation part, get access to the sections of the page -->
+    <nav style="text-align: center; margin:0px; 
+      background-color:rgb(39, 28, 0);
+      padding: 10px;
+      font-size: 20px;
+      ">
+      <a style="padding:1rem; color: white; text-decoration: none;" href="#home">home</a>
+      <a style="padding:1rem; color: white; text-decoration: none" href="#about">about</a>
+      <a style="padding:1rem; color: white; text-decoration: none"  href="#work">work</a>
+      <a style="padding:1rem; color: white; text-decoration: none" href="#resume">resume</a>
+      <a style="color: white; text-decoration: none" href="#contact">contact</a>
+    </nav>
+    
+    <!-- main content part -->
+    <main style="padding: 2rem;
+    background-color: rgb(255, 218, 148);">
+      <section >
+        <fieldset style="background-color: rgba(218, 165, 32, 0.74);border: none;">
+          <legend><h1   style="background-color:rgb(39, 28, 0);
+color:white; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem;"
+   style="background-color:rgb(39, 28, 0);"
+>welcome to my portfolio</h1></legend>
 
-    </section>
-    </fieldset>
+          <figure  style="">
+            <img  style="border-radius: 20rem; border: .5rem solid rgb(39, 28, 0);"
+              src="img/IMG_20220819_121915.jpg"
+              alt="profile-img"
+              width="100%"
+              height="400px"
+            />
+            <figcaption>me at 20 &#128513;</figcaption>
+          </figure>
+        </fieldset>
+      </section>
 
-    <section id="resume">
-      <fieldset>
-        <legend>
-      <h1>resume</h1></legend>
-      <p>
-        I have a strong foundation in HTML, CSS, and JavaScript, and I am familiar with popular frameworks such as React and Vue.js.
-        I am also experienced in using version control systems like Git and GitHub. I am currently seeking internships or entry-level positions to further develop my skills and gain practical experience in the field of web development.    
-      </p>
-      <table border="1" collapse="collapse">
-        <thead>
-          <tr>
-        <th>Skill/Project</th>
-        <th>Description</th>
-        <th>Level</th>
-        <th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-        <td>HTML</td>
-        <td>Markup language for web pages</td>
-        <td>Advanced</td>
-        <td>-</td>
-          </tr>
-          <tr>
-        <td>CSS</td>
-        <td>Styling and layout for websites</td>
-        <td>Intermediate</td>
-        <td>-</td>
-          </tr>
-          <tr>
-        <td>JavaScript</td>
-        <td>Programming language for web interactivity</td>
-        <td>Intermediate</td>
-        <td>-</td>
-          </tr>
-          <tr>
-        <td>Portfolio Website</td>
-        <td>Personal website showcasing projects</td>
-        <td>Completed</td>
-        <td><a href="#">View</a></td>
-          </tr>
-        </tbody>
-      </table>
-      </fieldset>
-    </section>
-    <section>
-      <fieldset>
-        <legend>
-      <h1>My favorite audio</h1> </legend>
-      <audio controls>
-  <source src="audio/hn.mp3" type="audio/mp3">
-  Your browser does not support the audio element.
-</audio>
-</fieldset>
-    </section>
-  </main>  
-    <section id="contact">
-      <fieldset>
-        <legend>
-      <h1>Contact Me</h1> </legend>
-        <form action="">
-          <table>
-            <tr>
-              <td><label for="full-name">Full name:</label></td>
-              <td><input type="text" name="full-name" id="full-name" placeholder="enter your name here"></td>
-            </tr>
-            <tr>
-              <td><label for="phone-number">Phone:</label></td>
-              <td><input type="number" name="phone-number" id="phone-number" placeholder="0666666666"></td>
-            </tr>
-            <tr>
-              <td><label for="email">Email:</label></td>
-              <td><input type="email" name="email" id="email" placeholder="example@gmail.com"></td>
-            </tr>
-            <tr>
-              <td><label for="src-information-select">How did you hear about me?</label></td>
-              <td>
-                <select name="src-information" id="src-information-select">
-                  <option value="" disabled selected>Select an option</option>
-                  <option value="linkedin">LinkedIn</option>
-                  <option value="github">GitHub</option>
-                  <option value="friend">Friend</option>
-                  <option value="other">Other</option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              <td><label for="your-comment">Your comment:</label></td>
-              <td>
-                <textarea name="your-comment" id="your-comment" placeholder="Your message here..." title="Enter your comment"></textarea>
-              </td>
-            </tr>
+      <!-- about me section -->
+      <section id="about">
+                <fieldset style="background-color: rgba(218, 165, 32, 0.74);border: none;">
+
+          <legend><h1   style="background-color:rgb(39, 28, 0);
+color:white; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem;"
+   style="background-color:rgb(39, 28, 0);"
+   style="background-color:rgb(39, 28, 0);"
+ style="      background-color:rgb(39, 28, 0);
+">about me</h1></legend>
+          <p>
+            Hi there, I am Daddinounou Zakaria, I am 22 years old, and I am a
+            student at USTHB University. I am passionate about web development
+            and I am currently learning front-end development.
+          </p>
+        </fieldset>
+      </section>
+
+      <!-- work section -->
+
+      <section id="work">
+                <fieldset style="background-color: rgba(218, 165, 32, 0.74);border: none;">
+
+          <legend>
+            <h1   style="background-color:rgb(39, 28, 0);
+color:white; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem;"
+   style="background-color:rgb(39, 28, 0);"
+   style="background-color:rgb(39, 28, 0);"
+>Work</h1>
+          </legend>
+
+          <p>
+            I have worked on several projects, including a personal portfolio
+            website, a blog platform, and a task management app. I am always
+            looking for new opportunities to learn and grow as a developer.
+            <br />
+            you cant see one of my project below:
+          </p>
+          <div class="video-container">
+            <iframe
+              width="100%"
+              height="600px"
+              src="https://www.youtube.com/embed/IHf3JWkxUXA?si=L9SFQIaOcYEYjfia"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </fieldset>
+      </section>
+      <!-- resume section -->
+      <section id="resume">
+                <fieldset style="background-color: rgba(218, 165, 32, 0.74);border: none;">
+
+          <legend>
+            <h1   style="background-color:rgb(39, 28, 0);
+color:white; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem;"
+   style="background-color:rgb(39, 28, 0);"
+>resume</h1>
+          </legend>
+          <p>
+            I have a strong foundation in HTML, CSS, and JavaScript, and I am
+            familiar with popular frameworks such as React and Vue.js. I am also
+            experienced in using version control systems like Git and GitHub. I
+            am currently seeking internships or entry-level positions to further
+            develop my skills and gain practical experience in the field of web
+            development.
+          </p>
+          <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse; ">
+            <thead style="background-color:rgb(39, 28, 0); color: rgb(216, 216, 216);">
+              <tr>
+                <th>Skill/Project</th>
+                <th>Description</th>
+                <th>Level</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML</td>
+                <td>Markup language for web pages</td>
+                <td>Advanced</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>Styling and layout for websites</td>
+                <td>Intermediate</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>Programming language for web interactivity</td>
+                <td>Intermediate</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Portfolio Website</td>
+                <td>Personal website showcasing projects</td>
+                <td>Completed</td>
+                <td><a href="#">View</a></td>
+              </tr>
+            </tbody>
           </table>
-        </form>
-      </fieldset>
-    </section>
-  <footer ">
-      <br>
-      <br>
-      <button>Top☝ </a></button>
-    <section>
-      <hr>
-      <p>© 2025 Daddinounou Zakaria. All rights reserved.</p>
-    </section>  
-  </footer>
-</body>
+        </fieldset>
+      </section>
+      <!-- favorite audio section -->
+      <section>
+                <fieldset style="background-color: rgba(218, 165, 32, 0.74);border: none;">
+
+          <legend>
+            <h1   style="background-color:rgb(39, 28, 0);
+color:white; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem;"
+   style="background-color:rgb(39, 28, 0);"
+>My favorite audio</h1>
+          </legend>
+          <audio controls>
+            <source src="audio/hn.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </fieldset>
+      </section>
+      <!-- contact me section -->
+      <section id="contact">
+                <fieldset style="background-color: rgba(218, 165, 32, 0.74);border: none;">
+
+          <legend>
+            <h1   style="background-color:rgb(39, 28, 0);
+color:white; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem; padding: 0.5rem;"
+   style="background-color:rgb(39, 28, 0);"
+>Contact Me</h1>
+          </legend>
+          <form action="">
+            <table>
+              <tr>
+                <td><label for="full-name">Full name:</label></td>
+                <td>
+                  <input
+                    type="text"
+                    name="full-name"
+                    id="full-name"
+                    placeholder="enter your name here"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="phone-number">Phone:</label></td>
+                <td>
+                  <input
+                    type="number"
+                    name="phone-number"
+                    id="phone-number"
+                    placeholder="0666666666"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="email">Email:</label></td>
+                <td>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="example@gmail.com"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="src-information-select"
+                    >How did you hear about me?</label
+                  >
+                </td>
+                <td>
+                  <select name="src-information" id="src-information-select">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="linkedin">LinkedIn</option>
+                    <option value="github">GitHub</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="your-comment">Your comment:</label></td>
+                <td>
+                  <textarea
+                    name="your-comment"
+                    id="your-comment"
+                    placeholder="Your message here..."
+                    title="Enter your comment"
+                  ></textarea>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </fieldset>
+      </section>
+
+      <br /><br />
+      <button><a href="#top-page">Top☝ </a></button>
+    </main>
+    <!-- footer part -->
+    <footer style="text-align: center; margin:0px; 
+      background-color:rgb(39, 28, 0);
+      padding: 10px;
+      font-size: 20px;
+      ">
+      <p style="color: white;">© 2025 Daddinounou Zakaria. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
